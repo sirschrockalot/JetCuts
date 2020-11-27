@@ -1,0 +1,58 @@
+<!-- <div class="site-navbar-top">
+  <div class="container py-2">
+    <div class="row align-items-center">
+      <div class="col-6">
+        <a href="#" class="p-2 pl-0"><span class="fa fa-twitter"></span></a>
+        <a href="#" class="p-2 pl-0"><span class="fa fa-facebook"></span></a>
+        <a href="#" class="p-2 pl-0"><span class="fa fa-instagram"></span></a>
+        <a href="#" class="p-2 pl-0"><span class="fa fa-linkedin"></span></a>
+      </div>
+      <div class="col-6">
+        <div class="d-flex ml-auto">
+          <a href="#" class="d-flex align-items-center ml-auto mr-4">
+            <span class="fa fa-envelope"></span>
+            <span class="d-none d-md-inline-block">shannon@jetcutswi.com</span>
+          </a>
+          <a href="tel:123-456-7890" class="d-flex align-items-center">
+            <span class="fa fa-phone"></span>
+            <span class="d-none d-md-inline-block">262 993 9402</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<nav class="navbar navbar-light navbar-expand-lg bg-faded justify-content-center ">
+    <a [routerLink]="['/']" class="navbar-brand d-flex w-50 mr-auto"
+      ><img src="assets/images/jetcutslogo.png" width="200" height="50"
+    /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse w-100 " id="collapsingNavbar3">
+      <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/']">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/services']">Services</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/company']">Company</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/quote']">Contact Us</a>
+        </li>
+        <!-- <li class="nav-item" *ngIf="!isLoggedIn">
+          <a class="nav-link fa fa-shopping-cart" [routerLink]="['/login']"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fa fa-shopping-cart" (click)="clicked()">
+            <span *ngIf="isLoggedIn"><img src="{{ this.user.photoUrl }}"/></span
+          ></a>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+  
